@@ -28,6 +28,17 @@ header h1 {
     color: #ffff;
 }
 
+#author-tag {
+    font-size: 15;
+}
+
+#P-letter {
+    color: blue;
+}
+
+#author-tag span {
+    color: #F1A22A;
+}
 header p {
     width: 372;
     color: D5D4D8;
