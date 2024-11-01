@@ -6,6 +6,31 @@ let generatedPasswordTwo;
 let renderPass1 = document.getElementById("password1")
 let renderPass2 = document.getElementById("password2")
 
+
+function getRandomCharacter() {
+    let char = Math.floor(Math.random() * characters.length)
+    return characters[char]
+}
+
+function generatePassowrd() {
+    let password = ""
+    for (let i = 0; i < passwordLength; i++){
+    passowrd += getRandomCharacter
+    }
+    return password
+}
+
+
+
+
+
+
+
+
+
+
+
+
 function getRandomCharacter() {
     let randomChar = Math.floor(Math.random() * characters.length) // generuje random číslo které určí pozici
     return characters[randomChar] // vybere pozici kterou vybere let RandomChar, (číslo které vznikne pomocí randomChar se dosadí do [] a to pak určí pozici)
