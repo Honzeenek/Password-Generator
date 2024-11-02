@@ -23,7 +23,5 @@ function generatePassword () {
 function renderPasswords() {
     renderPass1.textContent = generatePassword()
     renderPass2.textContent = generatePassword()
-    renderPass1.addEventListener("click", () => copyToClipboard(generatedPasswordOne));
-    renderPass2.addEventListener("click", () => copyToClipboard(generatedPasswordTwo));
 }
 
